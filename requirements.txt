@@ -1,6 +1,5 @@
-streamlit
-numpy
-scipy
-plotly
-numba
-
+streamlit==1.61.1
+numpy==2.5.2
+scipy==1.18.0
+plotly==6.9.0
+numba==0.67.0

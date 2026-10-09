@@ -153,5 +153,5 @@ def render():
         #### 3. Linear Validation Graph
         Rearranging terms shows that $1/\sqrt{V}$ is directly proportional to $\sin(\phi/2)$:
         $$ \frac{1}{\sqrt{V}} = \left( \frac{2 d \sqrt{2 m_e e}}{n h} \right) \sin\left(\frac{\phi}{2}\right) $$
-        Plotting $1/\sqrt{V}$ vs $\sin(\phi/2)$ yields a straight line whose slope allows precise experimental determination of the graphite interplanar lattice spacing $d$ ($d_1 = 0.123$ nm, $d_2 = 0.213$ nm).
+        Plotting $1/\sqrt{V}$ vs $\sin(\phi/2)$ yields a straight line whose slope allows precise experimental determination of the graphite interplanar lattice spacing $d$ ($d_1 = 0.213$ nm, $d_2 = 0.123$ nm).
         """)

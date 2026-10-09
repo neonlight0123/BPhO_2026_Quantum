@@ -4,13 +4,13 @@ import plotly.graph_objects as go
 
 def render():
     st.header("Task 5: Hydrogen Spectra")
-    st.markdown("""
+    st.markdown(r"""
         **Objective:** Create a graph of photon energy vs wavelength for photon emissions from hydrogen atoms due to transitions between electron energy levels.
         
         The photon energy for a transition from state $n$ to $m$ (where $n > m$) is:
-        $$ E = 13.6 \left( \\frac{1}{m^2} - \\frac{1}{n^2} \\right) \\text{eV} $$
+        $$ E = 13.6 \left( \frac{1}{m^2} - \frac{1}{n^2} \right) \text{eV} $$
         And the corresponding wavelength is given by the Balmer-Rydberg formula:
-        $$ \\lambda_{nm} = \\frac{91.13\\text{nm}}{\\frac{1}{m^2} - \\frac{1}{n^2}} $$
+        $$ \lambda_{nm} = \frac{91.13\text{nm}}{\frac{1}{m^2} - \frac{1}{n^2}} $$
     """)
     
     series_data = {
